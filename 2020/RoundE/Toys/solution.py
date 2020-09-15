@@ -1,3 +1,5 @@
+#Check indefinite function to check if Alex can keep 
+#playing with the current toys.
 def check_ind(E, R):
     E_sum = sum(E)
 
@@ -13,6 +15,7 @@ def check_ind(E, R):
         return False, idx
     return True, -1
     
+
 
 def solve(E, R):
     if len(E)==0:
